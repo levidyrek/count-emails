@@ -1,6 +1,8 @@
 # About
 
-This application will take in a list of email addresses (separated by new lines) and outputs a list of domains with their respective number of occurrences in the given file.
+This is a small project developed in September 2017 as part of an interview process.
+
+This script will take in a list of email addresses (separated by new lines) and outputs a list of domains with their respective number of occurrences in the given file.
 
 
 # Usage
@@ -31,7 +33,7 @@ local-part can contain:
 - uppercase and lowercase latin letters (a-z, A-Z)
 - all international UTF-8 characters above U+007F
 - digits 0-9
-- special characters !#$%&'*+-/=?^_`{|}~
+- special characters !#$%&'*+-/=?^_\`{|}~
 - dots (.), but not as first or last letter
 - up to 64 characters total (1 character minimum)
 
